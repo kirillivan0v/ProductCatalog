@@ -1,0 +1,22 @@
+.product-block{
+    width: 50%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+div[class^='product-']:not(.product-block){
+    width: 150px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+div[class^='product-'] span{
+    display: block;
+}
+
+div[class^='product-'] span.price{
+    font-weight: bold;
+}
