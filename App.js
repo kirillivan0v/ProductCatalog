@@ -25,7 +25,7 @@ function loadComponent(comp){
 }
 
 
-loadComponent('product');
+loadComponent('bicycle');
 loadComponent('search');
 
 
@@ -36,7 +36,7 @@ function appBody(){
         console.log('Components error', errors);
     }
 
-    let search = new Search(productList);
+    let search = new Search(bicycleList);
     search.render();
 }
 

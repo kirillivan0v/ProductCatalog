@@ -1,0 +1,26 @@
+.bicycles-block{
+    width: 50%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+.bicycles-block img{
+    width: 200px;
+}
+
+div[class^='bicycles-']:not(.product-block){
+    width: 150px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+div[class^='bicycles-'] span{
+    display: block;
+}
+
+div[class^='bicycles-'] span.price{
+    font-weight: bold;
+}
